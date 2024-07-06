@@ -1,2 +1,82 @@
 body {
+  background-attachment: fixed;
+  height: 100%;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/703/original/soma-cooking-food-wars-shokugeki-no-soma-sxdovzted86baonz_%281%29.jpg?1720148573");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+}
+
+header {
+  font-size: 36px;
+  padding: 25px;
+  margin: 80px auto 0px;
+  max-width: 400px;
+  max-height: 200px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.452);
+}
+
+.containerOne {
+  text-align: center;
+  margin: 40px auto;
+  padding: 0 100px;
+  max-width: 400px;
+  max-height: 800px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.452);
+}
+
+form {
+  padding: 25px 25px 0px 25px;
+  display: block;
+}
+
+.ingredients {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b9b7b7;
+  width: 70%;
+}
+
+.submit-button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b9b7b7;
+  background-color: white;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  color: white;
+  padding: 0px 0px 10px 0px;
+}
+
+.containerTwo {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.452);
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+footer {
+  font-size: 10px;
+  color: aliceblue;
+}
+
+a {
+  color: inherit;
 }
