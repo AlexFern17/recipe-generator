@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Recipe Generator</title>
   </head>
   <body>
@@ -39,7 +40,7 @@
       <form class="formInput" id="formInput">
         <input
           type="text"
-          placeholder="Enter your ingredients"
+          placeholder="Enter your ingredient(s)"
           required
           class="ingredients"
           id="ingredients"
@@ -48,9 +49,7 @@
       </form>
       <section class="hint">e.g. carrots, lettuce, mushrooms</section>
     </section>
-    <section class="containerTwo" id="containerTwo">
-      This is where the AI recipe will go.
-    </section>
+    <section class="containerTwo" id="containerTwo"></section>
     <footer>
       This page was coded by
       <a href="https://github.com/AlexFern17" target="_blank">Alex Fernandez</a
