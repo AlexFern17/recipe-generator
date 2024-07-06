@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Shadows+Into+Light&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Recipe Generator</title>
   </head>
   <body>
@@ -35,7 +36,7 @@
         Utilize our AI Recipe Generator to reduce your food waste by putting the
         ingredients already in your fridge to use.
       </p>
-      <form class="formInput">
+      <form class="formInput" id="formInput">
         <input
           type="text"
           placeholder="Enter your ingredients"
@@ -47,7 +48,9 @@
       </form>
       <section class="hint">e.g. carrots, lettuce, mushrooms</section>
     </section>
-    <section class="containerTwo">This is where the AI recipe will go.</section>
+    <section class="containerTwo" id="containerTwo">
+      This is where the AI recipe will go.
+    </section>
     <footer>
       This page was coded by
       <a href="https://github.com/AlexFern17" target="_blank">Alex Fernandez</a
